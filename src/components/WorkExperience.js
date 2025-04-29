@@ -107,10 +107,10 @@ const WorkExperience = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-3xl sm:text-4xl font-bold text-cosmic mb-3">
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-cosmic mb-3">
               Work Experience
             </h2>
-            <p className="text-cosmic/70 text-lg max-w-2xl mx-auto">
+            <p className="text-cosmic/70 text-lg sm:text-xl max-w-2xl mx-auto font-medium">
               Building products that matter, one role at a time
             </p>
           </motion.div>
@@ -142,14 +142,14 @@ const WorkExperience = () => {
                       <div className={`p-2 rounded-lg bg-${role.color}/10`}>
                         <BsBriefcase className={`w-4 h-4 text-${role.color}`} />
                       </div>
-                      <h3 className="font-semibold text-cosmic truncate">
+                      <h3 className="font-bold text-lg sm:text-xl text-cosmic truncate">
                         {role.title}
                       </h3>
                     </div>
                     <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 text-sm text-cosmic/70">
-                      <span className="font-medium">{role.company}</span>
+                      <span className="font-bold">{role.company}</span>
                       <span className="hidden sm:block text-cosmic/40">•</span>
-                      <span className="font-mono text-cosmic/60">{role.period}</span>
+                      <span className="font-medium text-cosmic/60">{role.period}</span>
                     </div>
                   </div>
                   <motion.div
@@ -182,7 +182,7 @@ const WorkExperience = () => {
                             className="flex items-start gap-3"
                           >
                             <span className={`w-1.5 h-1.5 rounded-full bg-${role.color} mt-2 flex-shrink-0`} />
-                            <span className="text-sm sm:text-base leading-relaxed">
+                            <span className="text-sm sm:text-base leading-relaxed font-medium">
                               {achievement}
                             </span>
                           </motion.li>

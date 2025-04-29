@@ -42,7 +42,7 @@ const Header = () => {
               className="text-cosmic hover:text-coral transition-colors duration-300"
               onClick={handleLinkClick}
             >
-              <span className="text-lg sm:text-xl font-bold tracking-tight">Quỳnh|Tracey</span>
+              <span className="text-lg sm:text-xl font-extrabold tracking-tight">Quỳnh|Tracey</span>
             </a>
           </div>
 
@@ -52,7 +52,7 @@ const Header = () => {
               <motion.a
                 key={link.href}
                 href={link.href}
-                className="text-cosmic/80 hover:text-coral transition-colors duration-300 px-2 py-1"
+                className="text-cosmic/80 hover:text-coral transition-colors duration-300 px-2 py-1 font-bold"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
