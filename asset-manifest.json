@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/about-tracey/static/css/main.1f55ff04.css",
+    "main.js": "/about-tracey/static/js/main.56c922b2.js",
+    "static/js/453.1407b060.chunk.js": "/about-tracey/static/js/453.1407b060.chunk.js",
+    "index.html": "/about-tracey/index.html",
+    "main.1f55ff04.css.map": "/about-tracey/static/css/main.1f55ff04.css.map",
+    "main.56c922b2.js.map": "/about-tracey/static/js/main.56c922b2.js.map",
+    "453.1407b060.chunk.js.map": "/about-tracey/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f55ff04.css",
+    "static/js/main.56c922b2.js"
+  ]
+}
