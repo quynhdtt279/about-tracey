@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-pearl text-cosmic;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-cosmic font-bold;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-cosmic text-pearl px-6 py-3 rounded-lg font-medium
+           transition-all duration-300 
+           hover:bg-cosmic-hover hover:shadow-glow-cosmic
+           active:transform active:scale-95;
+  }
+  
+  .btn-accent {
+    @apply bg-coral text-pearl px-6 py-3 rounded-lg font-medium
+           transition-all duration-300
+           hover:bg-coral-hover hover:shadow-glow-coral
+           active:transform active:scale-95;
+  }
+  
+  .btn-secondary {
+    @apply bg-mint text-cosmic px-6 py-3 rounded-lg font-medium
+           transition-all duration-300
+           hover:bg-mint-hover hover:shadow-glow-mint
+           active:transform active:scale-95;
+  }
+  
+  .card {
+    @apply bg-pearl p-6 rounded-xl border border-smoke
+           transition-all duration-300
+           hover:shadow-glow-cosmic hover:border-cosmic;
+  }
+  
+  .card-hover-mint {
+    @apply hover:shadow-glow-mint hover:border-mint;
+  }
+  
+  .card-hover-coral {
+    @apply hover:shadow-glow-coral hover:border-coral;
+  }
+  
+  .nav-link {
+    @apply text-cosmic transition-all duration-300
+           hover:text-coral hover:shadow-glow-coral
+           relative after:absolute after:bottom-0 after:left-0 
+           after:w-0 after:h-0.5 after:bg-coral
+           after:transition-all after:duration-300
+           hover:after:w-full;
+  }
+  
+  .section-title {
+    @apply text-3xl font-bold text-cosmic mb-8
+           relative inline-block
+           after:absolute after:-bottom-2 after:left-0 
+           after:w-1/2 after:h-1 after:bg-solar
+           after:rounded-full;
+  }
+  
+  .cosmic-glow {
+    @apply animate-cosmic-pulse;
+  }
+  
+  .float-animation {
+    @apply animate-float;
+  }
+  
+  .highlight-text {
+    @apply text-coral font-semibold;
+  }
+}
