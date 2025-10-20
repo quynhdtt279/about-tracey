@@ -5,6 +5,12 @@ import { BiCalendar } from 'react-icons/bi';
 
 const education = [
   {
+    degree: "Master in Educational Technology",
+    institution: 'Saarland University',
+    year: 'Present',
+    highlight: true
+  },
+  {
     degree: "Engineer's in Software Engineering",
     institution: 'FPT University',
     year: '2018',
@@ -15,7 +21,7 @@ const education = [
     degree: 'High School Diploma',
     institution: 'Nguyen Hue High School for the Gifted',
     year: '2014',
-    specialization: 'Chemistry'
+    // specialization: 'Chemistry'
   }
 ];
 
